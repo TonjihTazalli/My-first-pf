@@ -9,18 +9,34 @@ h1{
 .orange{
     color:chocolate;
 }
-section{
+/*section{
+    display: flex;
+    margin-bottom: 500px;
+}*/
+.flexible-class{
     display: flex;
     margin-bottom: 500px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    
    
+}
+.border{
+    border-left: 4px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
 }
 .half-width img{
     width: 50%;
     padding-right: 100%;
+}
+.threewidth{
+    width: 20%;
+    padding-left: 10%;
+    margin-left: 5%;
+    
 }
 .half-width2{
     width: 50%;
@@ -33,8 +49,19 @@ section{
     width: 70%;
     
     padding-left: 20% ;
+}
+.half-width3{
+    width: 50%;
+    padding-left: 30%;
+   
+}
 
-.link-button{
+.half-width3 img{
+    width: 50%;
+    padding-right: 100%;
+}
+
+.link-button {
     text-decoration: none;
     background-color: coral;
     padding: 10px 40px ;
@@ -49,4 +76,50 @@ section{
     border-radius: 5px;
     color: cornsilk;
     font-weight: 700;
+}
+.diffbackground1{
+
+    text-decoration: none;
+    background-color: coral;
+    padding: 50px 30px ;
+    padding-right: 100px;
+    border-radius: 5%;
+    text-align: center;
+}
+.diffbackground1 img{
+    width:40%;
+}
+.diffbackground2{
+
+    ttext-decoration: none;
+    background-color: burlywood;
+    padding: 50px 40px ;
+    border-radius: 5%;
+    text-align: center;
+}
+.diffbackground2 img{
+    width:20%;
+}
+#middle{
+    padding-left: 30pc;
+
+}
+footer h4{
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+}
+footer h5{
+    text-align: center;
+    color: blanchedalmond;
+}
+.bg{
+    background-color: black;
+}
+.otherfont{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    font-size: 30px;
 }
