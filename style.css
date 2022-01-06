@@ -11,21 +11,41 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 500px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+   
 }
 .half-width img{
     width: 50%;
+    padding-right: 100%;
 }
-p{
-    font-size: 30px;
+.half-width2{
+    width: 50%;
+    padding-left: 50PX;
+   
+    
+   
 }
+.half-width2 img{
+    width: 70%;
+    
+    padding-left: 20% ;
+
 .link-button{
     text-decoration: none;
     background-color: coral;
     padding: 10px 40px ;
+    border-radius: 5px;
+    color: cornsilk;
+    font-weight: 700;
+}
+.link-button2{
+    text-decoration: none;
+    background-color: coral;
+    padding: 5px 40px ;
     border-radius: 5px;
     color: cornsilk;
     font-weight: 700;
